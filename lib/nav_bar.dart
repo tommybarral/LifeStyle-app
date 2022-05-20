@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lifestyle_app/screens/content_screen.dart';
+import 'package:lifestyle_app/screens/search_screen.dart';
 import 'package:lifestyle_app/screens/profile_screen.dart';
 import 'package:lifestyle_app/screens/shopping_bag_screen.dart';
 import 'package:lifestyle_app/screens/welcome_screen.dart';
@@ -17,7 +17,7 @@ class _NavBarState extends State<NavBar> {
 
   List<Widget> _pages = [
     WelcomeScreen(),
-    ContentScreen(),
+    SearchScreen(),
     ShoppingBagScreen(),
     ProfileScreen(),
   ];
